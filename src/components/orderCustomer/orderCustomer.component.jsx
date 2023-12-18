@@ -1,4 +1,4 @@
-const ComandaCliente = () => {
+const OrderCustomer = () => {
   return (
     <section>
       <ul>
@@ -10,4 +10,4 @@ const ComandaCliente = () => {
   );
 };
 
-export default ComandaCliente;
+export default OrderCustomer;

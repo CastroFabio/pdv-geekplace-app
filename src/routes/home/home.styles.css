@@ -1,0 +1,23 @@
+section {
+  display: grid;
+  grid-template: 1fr;
+  padding: 1rem;
+  width: 50%;
+}
+
+button {
+  padding: 2rem;
+  margin: 10px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
