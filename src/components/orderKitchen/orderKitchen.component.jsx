@@ -3,189 +3,107 @@ import "./orderKitchen.styles.css";
 const OrderKitchen = () => {
   return (
     <>
-      <div className="grid border">
-        <section className="cards">
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+      <section className="containerOrderKitchenBody">
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className=" containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
+        </div>
+        <div className="border orderKitchenCard">
+          <p>Kaborge</p>
+          <ul>
+            <li>Sanduíche</li>
+            <li>Sorvete</li>
+          </ul>
+          <div className="containerActionButtons">
             <button>Finalizar</button>
+            <button>Cancelar</button>
           </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-
-          <div className="border orderKitchenCard">
-            <p>Kaborge</p>
-            <ul>
-              <li>Sanduíche</li>
-              <li>Água sem gás</li>
-              <li>Sorvete</li>
-            </ul>
-            <button>Finalizar</button>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 };

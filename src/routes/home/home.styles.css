@@ -1,11 +1,11 @@
-section {
+.containerHomePageBody {
   display: grid;
   grid-template: 1fr;
   padding: 1rem;
   width: 50%;
 }
 
-button {
+.buttonHomePage {
   padding: 2rem;
   margin: 10px;
 }

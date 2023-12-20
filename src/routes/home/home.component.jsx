@@ -6,21 +6,36 @@ const Home = () => {
 
   return (
     <>
-      <div className="center ">
-        <section className="">
-          <button onClick={() => navigate("/historico")} className="">
+      <div className="center containerHomePageBody">
+        <section className="containerHomePageBody">
+          <button
+            className="buttonHomePage"
+            onClick={() => navigate("/historico")}
+          >
             Histórico
           </button>
-          <button onClick={() => navigate("/pedidos")} className="">
+          <button
+            className="buttonHomePage"
+            onClick={() => navigate("/pedidos")}
+          >
             Comandas
           </button>
-          <button onClick={() => navigate("/cozinha")} className="">
+          <button
+            className="buttonHomePage"
+            onClick={() => navigate("/cozinha")}
+          >
             Cozinha
           </button>
-          <button onClick={() => navigate("/cadastroProdutos")} className="">
+          <button
+            className="buttonHomePage"
+            onClick={() => navigate("/cadastroProdutos")}
+          >
             Cadastro de Produtos
           </button>
-          <button onClick={() => navigate("/cadastroClientes")} className="">
+          <button
+            className="buttonHomePage"
+            onClick={() => navigate("/cadastroClientes")}
+          >
             Cadastro de Clientes
           </button>
         </section>
