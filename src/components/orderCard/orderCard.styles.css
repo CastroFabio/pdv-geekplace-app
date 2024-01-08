@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+}
+
+.orderCard {
+  padding: 15px 10px 25px;
+  margin: 10px;
+}
+
+.containerActionButtons {
+  display: flex;
+}
+
+.containerOrderBody {
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.containerOrderCardsBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

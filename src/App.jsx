@@ -5,16 +5,20 @@ import OrderCustomer from "./components/orderCustomer/orderCustomer.component.js
 import OrderKitchen from "./components/orderKitchen/orderKitchen.component.jsx";
 import Home from "./routes/home/home.component.jsx";
 import Navigation from "./routes/navigation/navigation.component.jsx";
+import CreateOrderCard from "./components/createOrderCard/createOrderCard.component.jsx";
+import Product from "./components/product/product.component.jsx";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/" element={<Navigation />}>
+        <Route path="/" element={<Home />} />
+        <Route element={<Navigation />}>
           <Route path="/pedidos" element={<OrderCard />} />
+          <Route path="/criarComanda" element={<CreateOrderCard />} />
           <Route path="/pedidosCliente" element={<OrderCustomer />} />
           <Route path="/cozinha" element={<OrderKitchen />} />
+          <Route path="/cadastroProdutos" element={<Product />} />
         </Route>
       </Routes>
     </>
