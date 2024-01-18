@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 import "./orderCard.styles.css";
+import { fetchClientsList } from "../../utils/endpoints/client.enpoints";
 
 const ordersByName = [
   {
@@ -33,15 +34,21 @@ const ordersByName = [
 const OrderCard = () => {
   const navigate = useNavigate();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const getData = async () => {
+      const clientList = await fetchClientsList();
+      return clientList;
+    };
+    console.log(getData());
+  }, []);
 
   return (
     <>
-      <section className="containerOrderBody">
+      <section className=" containerOrderBody">
         <h1>Comandas</h1>
 
         <button onClick={() => navigate("/criarComanda")}>Adicionar</button>
-        <div className="containerOrderCardsBody">
+        <div className=" containerOrderCardsBody">
           {ordersByName.map(
             ({ id, name, produto1, produto2, preco1, preco2 }) => {
               return (

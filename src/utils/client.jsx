@@ -1,11 +1,13 @@
-/* export const BASE_URL = "https://jsonplaceholder.typicode.com/todos/";
+export const BASE_URL = "http://localhost:5000";
 
 export const fazRequest = async (URL, method, body = null) => {
   let headers = {
     "Content-type": "application/json; charset=UTF-8",
+    "Access-Control-Allow-Origin": "http://localhost:5099/",
   };
   const completeURL = BASE_URL + URL;
   const request = {
+    credentials: "include",
     method,
     headers,
     body,
@@ -27,4 +29,3 @@ export const fazRequest = async (URL, method, body = null) => {
     throw err;
   }
 };
- */
